@@ -1,4 +1,7 @@
+
+
 import 'package:flutter/material.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 
 class FooderlichTheme {
@@ -60,6 +63,7 @@ class FooderlichTheme {
 
   static ThemeData light() {
     return ThemeData(
+      
       brightness: Brightness.light,
       checkboxTheme: CheckboxThemeData(
         fillColor: MaterialStateColor.resolveWith(
